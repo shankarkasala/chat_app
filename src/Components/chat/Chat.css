@@ -1,0 +1,92 @@
+.chat-container {
+  width: 100%;
+  height: 100vh;
+}
+.chat-container,
+.chat-left,
+.chat-right {
+  display: flex;
+}
+.chat-left {
+  width: 400px;
+  height: 100vh;
+  background: #111b21;
+  color: #fff;
+}
+.chat-right {
+  width: 100%;
+  background: #222e35;
+}
+/* #202c33 */
+.chat-channel-search {
+  width: 100%;
+  height: 80px;
+  background: #202c33;
+}
+.channal-input {
+  width: 220px;
+  margin: 16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: #111b21;
+}
+.chat-left,
+.chat-channel-search,
+.chat-channals {
+  display: flex;
+  flex-direction: column;
+}
+.chat-channals {
+  height: 100%;
+  width: 100%;
+  margin-top: 16px;
+}
+.channal-1 {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #222e35;
+}
+.avathar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: rgb(127, 225, 238);
+  padding: 5px;
+  margin: 10px;
+}
+.channal-1,
+.avathar,
+.channal {
+  display: flex;
+}
+.channal {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+.chatting-field {
+  justify-content: flex-end;
+  height: 15px;
+  width: 100%;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.chatting-field-container {
+  width: 900px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
